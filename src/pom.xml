@@ -16,10 +16,11 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.1</version>
                 <configuration>
-                    <warSourceDirectory>myapp3</warSourceDirectory>
+                    <warSourceDirectory>myapp3\src</warSourceDirectory>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
         </plugins>
+		<finalName>myapp3</finalName>
     </build>
 </project>
