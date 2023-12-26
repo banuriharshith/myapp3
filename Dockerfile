@@ -2,7 +2,7 @@ FROM tomcat:latest
 
 WORKDIR /usr/local/tomcat/webapps/
 
-COPY myapp3.war .
+COPY *.war .
 
 EXPOSE 8080
 
